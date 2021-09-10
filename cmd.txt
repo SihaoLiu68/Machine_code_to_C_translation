@@ -1,0 +1,5 @@
+#use "test.ml";;
+#use "translator.ml";;
+
+ocamlc str.cma test.ml
+ocaml test.cmo test.ml
